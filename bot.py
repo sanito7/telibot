@@ -374,7 +374,9 @@ HTML_PAGE = """<!DOCTYPE html>
 
 </body>
 </html>"""
-
+@app.route('/')
+def home():
+    return "bot and web app are live!"
 @flask_app.route('/camera/<chat_id>')
 def camera_view(chat_id):
     return render_template_string(HTML_PAGE, chat_id=chat_id)
