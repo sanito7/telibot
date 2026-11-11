@@ -14,7 +14,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, ContextTyp
 TOKEN = os.getenv("8269693401:AAG1iujyKHIg6QgpZtpMEDc9nFs_7loXR54") or "8269693401:AAG1iujyKHIg6QgpZtpMEDc9nFs_7loXR54"
 
 # Your active VS Code forwarded tunnel domain (no trailing slash)
-DOMAIN = "https://telibot.onrender.com"
+DOMAIN = "https://telibot-production.up.railway.app"
 
 # ==========================================
 # 2. FLASK WEB APP & TEMPLATE
